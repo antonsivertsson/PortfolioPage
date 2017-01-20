@@ -5,8 +5,6 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<p>Hello World</p>
-				<Link to='/about'>About Me</Link>
 				{this.props.children}
 			</div>
 		);
